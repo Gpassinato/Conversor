@@ -1,0 +1,171 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css");
+
+* {
+  font-family: sans-serif;
+}
+body {
+  margin: 0rem auto;
+  background-color: rgb(230, 227, 227);
+}
+header {
+  width: 60.007rem;
+  /* position: fixed; */
+  float: right;
+  margin-right: 90px;
+}
+.menu-top {
+  width: 58.205rem;
+  height: 2.5rem;
+  padding: 0.8rem;
+  border-top: none;
+  margin: 0px auto;
+  /* margin-left: 17.5rem; */
+  background-color: white;
+}
+.menu-top li {
+  display: inline-block;
+  padding-right: 1.264rem;
+  padding-top: 0.75rem;
+}
+.menu-top li a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #e6330b;
+}
+.menu-top a:hover {
+  border-bottom: solid 0.1rem #e6330b;
+}
+.menu-top .pesquisa {
+  float: right !important;
+  width: 9.2rem;
+  height: 2em;
+  margin-top: 0.625rem;
+  border: solid 0.1rem rgb(156, 156, 156);
+  border-radius: 1px;
+  padding-left: 0.5rem;
+}
+.menu-esquerdo {
+  width: 15.794rem;
+  height: 100%;
+  background-color: #ffba0d;
+  float: left;
+  position: absolute;
+}
+.bk-lg {
+  background-color: #e6330b;
+  width: 15.794rem;
+  height: 3.974rem;
+}
+.menu-esquerdo .logo {
+  align-content: center;
+  margin-top: 0.7rem;
+  height: 1.778rem;
+  width: 14.813rem;
+  padding: 0.5rem;
+}
+.menu-esquerdo li {
+  align-content: center;
+  list-style-type: none;
+  height: 3.5rem;
+  width: 100%;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
+}
+.menu-esquerdo li:hover {
+  background-color: #e2a60e;
+}
+.menu-esquerdo li a {
+  text-transform: uppercase;
+  align-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 0px 2px rgb(173, 173, 173);
+}
+.menu-esquerdo li menu {
+  text-transform: uppercase;
+  padding: 0px;
+  align-content: center;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 0px 2px rgb(173, 173, 173);
+  cursor: pointer;
+}
+.menu-esquerdo ul {
+  position: relative;
+  font-size: 2rem;
+  top: 343px;
+  justify-content: space-around;
+  padding: 0px;
+  margin-left: 45px;
+  cursor: pointer;
+}
+.menu-esquerdo ul i {
+  padding: 10px;
+  color: #e6330b;
+}
+.contb {
+  width: 59.7rem;
+  background-color: rgb(230, 227, 227);
+  margin-right: auto;
+  margin-left: 302px;
+  height: 121px;
+}
+
+.cont1 {
+  width: 57.7rem;
+  background-color: white;
+  box-shadow: 1px 0px 2px rgb(173 173 173);
+  margin-right: auto;
+  margin-left: 319px;
+  height: 60%;
+  padding: 14px;
+}
+
+.cont1 h2 {
+  height: 40px;
+  padding-left: 10px;
+}
+.cont1 .conversor {
+  border: solid #e2a60e 1px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  width: 20rem;
+  height: 65%;
+  font-size: 1.5rem;
+}
+
+.cont1 .conversor select {
+  height: 2rem;
+  font-size: 1.5rem;
+  width: 20rem;
+  border: solid 0.1rem rgb(156, 156, 156);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.cont1 .conversor input {
+  height: 2rem;
+  font-size: 1.5rem;
+  width: 20rem;
+  border: solid 0.1rem rgb(156, 156, 156);
+  border-radius: 5px;
+  margin-top: 8px;
+}
+.cont1 .conversor button {
+  height: 2rem;
+  font-size: 1.5rem;
+  width: 9rem;
+  margin-top: 10px;
+  border: solid 0.1rem rgb(156, 156, 156);
+  border-radius: 5px;
+}
+
+.cont1 .conversor button:hover {
+  background-color: rgb(156, 156, 156);
+}
+.cont1 .conversor .converter {
+  margin-left: 10px;
+}
